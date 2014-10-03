@@ -3402,9 +3402,9 @@ battlecontroller.hasfainted=%s已经昏厥了！
 battlecontroller.outofpokemon=你已经没有能够战斗的神奇宝贝了！
 
 battlecontroller.afk=%s 已经AFK了 %d 秒 自动战斗已经接管训练师战斗 %d 秒！
-battlecontroller.selfafk=您已经AFK了 %d 秒！自动战斗将接管您的战斗 %d 秒！
+battlecontroller.selfafk=你已经AFK了 %d 秒！自动战斗将接管您的战斗 %d 秒！
 battlecontroller.afkback=%s 从AFK状态恢复了！自动战斗已结束了！
-battlecontroller.selfafkback=您从AFK状态恢复了！自动战斗已将战斗操作权交还给您！
+battlecontroller.selfafkback=你从AFK状态恢复了！自动战斗已将战斗操作权交还给你！
 
 battleController.recievedDamage=%s 受到了 %d 来自 %s 的伤害
 
@@ -3488,7 +3488,7 @@ tile.Water Stone Ore.name=水之石矿
 tile.Leaf Stone Ore.name=叶之石矿
 tile.Thunder Stone Ore.name=雷之石矿
 tile.Sun Stone Ore.name=太阳石矿
-tile.Dawn Stone Ore.name=霞矿
+tile.Dawn Stone Ore.name=觉醒石矿
 tile.pixelmonSpawner.name=神奇宝贝怪物箱
 tile.master chest.name=大师箱
 tile.poke chest.name=宝贝箱
