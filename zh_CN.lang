@@ -3923,6 +3923,8 @@ tile.Sun Stone Ore.name=太阳石矿
 tile.Dawn Stone Ore.name=觉醒石矿
 tile.Dusk Stone Ore.name=暗之石矿
 tile.DawnDusk Ore.name=觉醒/暗之石矿
+tile.templePillar.Pillar.name=神庙支柱
+tile.templePillar.BrokenPillar.name=残破的支柱
 
 PokeDirt.name=神奇宝贝泥土
 PokeSand.name=神奇宝贝沙地
