@@ -867,6 +867,16 @@ item.record.otwoa.desc=On the Wings of Adventure
 item.record.pw.desc=Pixelmon Waltz
 item.record.tef.desc=The Enchanted Forest
 item.record.tfl.desc=The Frozen Land
+item.record.dawn.desc=Dawn
+item.record.dusk.desc=Dusk
+item.record.mn.desc=Midnight
+item.record.cs.desc=Clear Skies
+item.record.tgp.desc=The Great Plains
+
+item.venusaurite.name=Venusaurite
+item.charizardite_x.name=Charizardite X
+item.charizardite_y.name=Charizardite Y
+item.blastoisinite.name=Blastoisinite
 
 tile.braille_block.A.name=Braille Block A
 tile.braille_block.B.name=Braille Block B
@@ -4465,6 +4475,7 @@ gui.mainmenu.cantswitch=You can't switch Pokémon right now!
 gui.mainmenu.traped=$p is trapped! You cannot flee!
 gui.mainmenu.trainer=You can't run from this battle!
 gui.mainmenu.already=You've already selected another action this turn!
+gui.mainmenu.megaevolution=Mega Evolution
 
 gui.choosebag.pokeballs=Poké Balls
 gui.choosebag.hppp=HP/PP Restore
@@ -5291,6 +5302,9 @@ pixelmon.battletext.missedattack=%s avoided the attack!
 pixelmon.battletext.butmovefailed=But it failed!
 pixelmon.battletext.used=%s used %s!
 pixelmon.battletext.sentout=%s sent out %s!
+
+pixelmon.battletext.megareact=%s's %s is reacting to %s's Key Stone!
+pixelmon.battletext.megaevolve=%s has Mega Evolved into Mega %s!
 
 pixelmon.effect.regainedenergy=%s regained energy!
 pixelmon.effect.atedreams=%s ate %s's dream!
