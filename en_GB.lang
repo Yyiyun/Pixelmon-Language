@@ -4366,6 +4366,7 @@ gui.model.frame=Frame
 gui.model.walk=Walking
 gui.model.idle=Idle
 gui.model.fly=Flying
+gui.model.swim=Swimming
 
 enum.aggro.timid=Timid
 enum.aggro.default=Default
