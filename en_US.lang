@@ -3760,6 +3760,7 @@ pixelmon.entitytrainer.oncemcday=This Trainer can only be battled once a Minecra
 pixelmon.entitytrainer.onceplayer=This Trainer can only be battled once by each player.
 pixelmon.entitytrainer.level=Lv:
 pixelmon.entitytrainer.winnings=You won %s PokéDollars for defeating %s!
+pixelmon.entitytrainer.dropitemstitle=You defeated Gym Leader %s!
 
 trainer.edit.opwarning=You don't have permission to edit NPCs.
 
