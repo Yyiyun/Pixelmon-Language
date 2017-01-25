@@ -1,5 +1,5 @@
 /*
-*	Last update: 25/01/2017
+*   Last update: 25/01/2017
 *
 *   @Author AnDwHaT5, Keopha/Shueei, Souvtorpixel, MentalysFR, mineme45
 *
@@ -195,7 +195,7 @@ item.max_ether.name=Huile Max
 item.elixir.name=Élixir
 item.max_elixir.name=Max Élixir
 item.antidote.name=Antidote
-
+item.paralyse_heal.name=Anti-Para
 item.awakening.name=Réveil
 item.burn_heal.name=Anti-Brûle
 item.ice_heal.name=Antigel
@@ -322,8 +322,8 @@ item.dawn_stone_shard.name=Fragment de Pierre Aube
 item.shiny_stone_shard.name=Fragment de Pierre Éclat
 item.ever_stone.name=Pierre Stase
 item.lucky_egg.name=Oeuf Chance
-item.exp_share.name=Multi exp.
-
+item.exp_share.name=Multi Exp.
+item.exp_all.name=Multi Exp.
 item.choice_band.name=Bandeau Choix
 item.choice_scarf.name=Mouchoir Choix
 item.choice_specs.name=Lunettes Choix
@@ -348,11 +348,11 @@ item.electirizer.name=Électiriseur
 item.magmarizer.name=Magmariseur
 item.kings_rock.name=Roche Royale
 item.protector.name=Protecteur
-
-
-
-
-
+item.reaper_cloth.name=Tissu Fauche
+item.deep_sea_scale.name=Écaille Océan
+item.deep_sea_tooth.name=Dent Océan
+item.oval_stone.name=Pierre Ovale
+item.soul_dew.name=Rosée Âme
 item.up-grade.name=Améliorator
 item.razor_fang.name=Croc Rasoir
 item.dragon_scale.name=Écaille Draco
@@ -390,9 +390,9 @@ item.white_herb.name=Herbeblanche
 item.big_root.name=Grosseracine
 item.zoom_lens.name=Lentille Zoom
 item.bright_powder.name=Poudre Claire
-
-
-
+item.ginema_berry.name=Baie Ginema
+item.jaboca_berry.name=Baie Jaboca
+item.rowap_berry.name=Baie Pommo
 item.lagging_tail.name=Ralentiqueue
 item.wise_glasses.name=Lunettes Sages
 item.eject_button.name=Bouton Fuite
@@ -404,16 +404,16 @@ item.float_stone.name=Pierrallégée
 item.micle_berry.name=Baie Micle
 item.ring_target.name=Point de Mire
 item.amulet_coin.name=Pièce Rune
-
-
-
-
-
-
-
-
-
-
+item.ability_capsule.name=Pilule Talent
+item.assault_vest.name=Veste de Combat
+item.kee_berry.name=Baie Éka
+item.maranga_berry.name=Baie Rangma
+item.roseli_berry.name=Baie Selro
+item.pixie_plate.name=Plaque Pixie
+item.luminous_moss.name=Lichen Lumineux
+item.safety_goggles.name=Lunettes Filtre
+item.snowball.name=Boule de Neige
+item.weakness_policy.name=Vulné-Assurance
 
 item.full_incense.name=Encens Plein
 item.lax_incense.name=Encens Doux
@@ -668,11 +668,11 @@ item.tm162.name=TM162: Piège de Roc
 item.tm163.name=TM163: Possessif
 item.tm164.name=TM164: Vibrobscur
 item.tm165.name=TM165: Don Naturel
-
-
-
-
-
+item.tm166.name=TM166: Harcèlement
+item.tm167.name=TM167: Force-Nature
+item.tm168.name=TM168: Poing Boost
+item.tm169.name=TM169: Éclat Magique
+item.tm170.name=TM170: Confidence
 
 item.hm1.name=CS1: Coupe
 item.hm2.name=CS2: Vol
@@ -855,8 +855,8 @@ item.dusk_stone_plate.name=Plastron en Pierre Nuit
 item.dusk_stone_legs.name=Jambières en Pierre Nuit
 item.dusk_stone_boots.name=Bottes en Pierre Nuit
 item.picket_fence.name=Palissade
-
-
+tile.picket_fence_cross.name=Palissade
+tile.picket_fence_corner.name=Palissade
 
 item.record.asmbts.desc=Balade en Bord de Mer
 item.record.atd.desc=A travers le Désert
@@ -864,21 +864,21 @@ item.record.ds.desc=Rivages Lointains
 item.record.fptp.desc=De Sommet en Sommet
 item.record.jtts.desc=Voyage vers les Cieux
 item.record.nf.desc=Tombée de la Nuit
-
+item.record.ml.desc=Clair de lune
 item.record.otwoa.desc=Sur les Ailes de l'Aventure
 item.record.pw.desc=Valse Pixelmon
 item.record.tef.desc=La Forêt Enchantée
 item.record.tfl.desc=La Terre Gelée
+item.record.dawn.desc=Aube
+item.record.dusk.desc=Crépuscule
+item.record.mn.desc=Minuit
+item.record.cs.desc=Ciel clair
+item.record.tgp.desc=Les Grandes Plaines
 
-
-
-
-
-
-
-
-
-
+item.venusaurite.name=Florizarrite
+item.charizardite_x.name=Dracaufite X
+item.charizardite_y.name=Dracaufite Y
+item.blastoisinite.name=Tortankite
 
 tile.braille_block.A.name=Bloc Braille A
 tile.braille_block.B.name=Bloc Braille B
@@ -3685,9 +3685,9 @@ pixelmon.command.statsreset.reset=Les données de %s ont été remises à zéro.
 pixelmon.command.struc.cantfit=La structure ne peut pas rentrer aux coordonnées : %s.
 pixelmon.command.struc.nostruc=Aucune structure trouvée pour ce biome. (%s)
 pixelmon.command.struc.notfound=Structure %s introuvable.
-
-
-
+pixelmon.command.teach.busy=%s est occupé !
+pixelmon.command.teach.nothing=%s n'a rien dans ce slot !
+pixelmon.command.teach.slot=Le numéro de slot doit être compris entre 1 et 6.
 pixelmon.command.unlock=%s verrouillé a été déverrouillé avec succès !
 pixelmon.command.warpplate.notstanding=Vous ne vous tenez pas sur une plaque de téléportation.
 pixelmon.command.warpplate.set=Cible de la téléportation placée en %s
@@ -3726,8 +3726,8 @@ pixelmon.interaction.vitaminfail=Les EVs de %s ne peuvent plus être augmentés 
 pixelmon.interaction.berry=%s de %s a diminué.
 pixelmon.interaction.berryfriend=Le Bonheur de %s a augmenté !
 pixelmon.interaction.berryfail=%s de %s ne peuvent plus diminuer.
-
-
+pixelmon.interaction.noeffect=Cela n'aura aucun effet.
+pixelmon.interaction.abilitycapsule=La capacité %s a changé pour %s !
 
 pixelmon.general.noeffect=Cela n'a aucun effet!
 pixelmon.general.needop=Vous devez être opérateur pour réaliser cette action.
@@ -3746,8 +3746,8 @@ pixelmon.npc.relearnernoitem=Le réapprentissage est désormais utilisable gratu
 pixelmon.npc.relearnerfull=Vous ne pouvez pas stack cet objet davantage !
 pixelmon.npc.relearnercost=J'ai besoin de %s (x%d) pour utiliser mes services.
 
-
-
+pixelmon.npc.tutorname=Donneur de Capacités
+pixelmon.npc.cantpay=Vous ne pouvez pas payer le coût de l'apprentissage de cette capacité !
 
 pixelmon.projectiles.nibble=Ça ne mord pas..
 
@@ -3891,11 +3891,11 @@ pixelmon.blocks.movepad.loopbuilderror=Les boucles infinies de plaques de mouvem
 
 pixelmon.blocks.gymsign.ownership=This Gym sign does not belong to you.
 
-pixelmon.orb.amountfull=Vous devez encore tuer %d pokemons pour que votre orbe soit plein!
-pixelmon.orb.isfull=Votre orbe est plein!
+pixelmon.orb.amountfull=Vous devez encore tuer %d pokemons pour que votre orbe soit plein !
+pixelmon.orb.isfull=Votre orbe est plein !
 
-
-
+pixelmon.items.expallon=Multi Exp. est maintenant en marche.
+pixelmon.items.expalloff=Multi Exp. est maintenant éteint.
 
 //Achievements
 achievement.ItemFinderChieve=Chasseur de Pokéchest Caché!
@@ -3908,8 +3908,8 @@ achievement.LootMasterBallChieve=C'est une Master Ball!!!
 achievement.LootMasterBallChieve.desc=Trouver un Master Coffre.
 achievement.GrottoChieve=Il y a un passage par ici..
 achievement.GrottoChieve.desc=Trouver une Antre Cachée.
-
-
+achievement.PokedexChieve=Recherches scientifiques
+achievement.PokedexChieve.desc=Crafter un Pokédex.
 achievement.PokeballChieve=Attrapez les tous!
 achievement.PokeballChieve.desc=Fabriquer une Pokeball
 achievement.LegendaryChieve=Premier Légendaire
@@ -4003,7 +4003,7 @@ pixelmon.abilities.angerpoint=Colérique du %s le rends furieux !
 pixelmon.abilities.anticipation=Anticipation du %s le fait trembler !
 pixelmon.abilities.baddreams=%s est tourmenté par Mauvais Rêve du %s !
 pixelmon.abilities.bigpecks=Coeur de Coq du %s empêche la perte de Défense !
-
+pixelmon.abilities.changeform=%s a changé de forme !
 pixelmon.abilities.clearbody=Corps Sain du %s empêche la perte de stats !
 pixelmon.abilities.cloudnine=Ciel Gris du %s fait disparaître les effets de la météo !
 pixelmon.abilities.colourchange=Déguisement du %s le transforme en type %s !
@@ -4021,9 +4021,9 @@ pixelmon.abilities.effectsporepois=Pose Spore du %s a empoisonné %s !
 pixelmon.abilities.flamebody=Corps Ardent du %s a brûlé %s !
 pixelmon.abilities.flashfire=Torche du %s augmente la puissance des attaques de type Feu !
 pixelmon.abilities.flashfire2=Torche du %s annule l'attaque !
-pixelmon.abilities.forewarn=Prédiction du %s devine %s!
+pixelmon.abilities.forewarn=Prédiction du %s devine %s !
 pixelmon.abilities.frisk=%s fouille %s et trouve %s!
-pixelmon.abilities.harvest=Récolte du %s récupère %s!
+pixelmon.abilities.harvest=Récolte du %s et récupère %s!
 pixelmon.abilities.healer=Cœur Soin du %s soigne les effets de statuts du %s
 pixelmon.abilities.hypercut=Hyper Cutter du %s a empêché la perte d'Attaque !
 pixelmon.abilities.hydration=Hydratation du %s soigne ses effets de statuts
@@ -4067,8 +4067,8 @@ pixelmon.abilities.runaway=%s fuit en utilisant Fuite !
 pixelmon.abilities.sandstream=Sable Volant du %s provoque une tempête de sable !
 pixelmon.abilities.sapsipper=Herbivore du %s annule l'attaque !
 pixelmon.abilities.shedskin=Mue a guéri %s de sa maladie !
-
-
+pixelmon.abilities.slowstart=%s n'arrive pas à se motiver !
+pixelmon.abilities.slowstartend=%s s'est finalement motivé !
 pixelmon.abilities.snowwarning=Il grêle grâce à Alerte Neige du %s
 pixelmon.abilities.solarpower=Force Soleil du %s le met à rude épreuve !
 pixelmon.abilities.soundproof=Anti-Bruit du %s a rendu l'attaque inutile !
@@ -4081,7 +4081,7 @@ pixelmon.abilities.suctioncups=%s s'accroche avec Ventouse !
 pixelmon.abilities.telepathy=Télépathe du %s le protège de l'attaque !
 pixelmon.abilities.teravolt=%s dégage une aura électrique éclatante !
 pixelmon.abilities.trace=%s calque %s du %s !
-
+pixelmon.abilities.truant=%s paresse !
 pixelmon.abilities.turboblaze=%s dégage une aura de flammes incandescentes !
 pixelmon.abilities.unnerve=Tension du %s empêche l'adversaire de consommer sa baie.
 pixelmon.abilities.vitalspirit=%s reste éveillé grâce à Esprit Vital !
@@ -4152,7 +4152,7 @@ gui.fainterChoice.switch=Changer de Pokemon
 gui.fainterChoice.run=Fuir
 
 gui.guiDoctor.healPokemon=Je suis un Docteur Pokemon. Dois-je soigner vos Pokemons ?
-
+gui.guiDoctor.waiting=En attente
 
 gui.trading.ready=Prêt
 gui.trading.notready=Pas Prêt
@@ -4232,7 +4232,7 @@ gui.pixelmonspawner.minspawns=Spawns Min.
 gui.pixelmonspawner.maxlevel=Niv. Max.
 gui.pixelmonspawner.minlevel=Niv. Min.
 gui.pixelmonspawner.bossratio=Ratio de Boss
-
+gui.pixelmonspawner.aggression=Agression
 gui.pixelmonspawner.spawnlocation=Lieu de Spawn
 
 gui.creativeinv.fainted=K.O.
@@ -4268,7 +4268,7 @@ gui.trainereditor.pokemoneditor=Éditeur de Dresseur - Éditeur Pokemon
 gui.trainereditor.name=Nom
 gui.trainereditor.shiny=Shiny
 gui.trainereditor.normal=Normal
-
+gui.trainereditor.special=Spécial
 gui.trainereditor.male=Male
 gui.trainereditor.female=Femelle
 gui.trainereditor.changepokemon=Changer Pokemon
@@ -4302,7 +4302,7 @@ gui.tradereditor.changeTrainer=Dresseur
 gui.tradereditor.random=Aléatoire
 gui.trainereditor.changeTrader=Échangeur
 
-gui.chooseNPC.trainer=Créer un NPC d'échange
+gui.chooseNPC.trainer=Créer un PNJ d'échange
 gui.chooseNPC.trader=Créer un Échangeur
 gui.chooseNPC.chatting=Créer un Dresseur parlant
 gui.chooseNPC.relearner=Créer un Maître des Capacités
@@ -4331,7 +4331,7 @@ gui.starter.trademark2=de Nintendo et Game Freak Inc.
 gui.starter.trademark3=Soutenez Nintendo/Game Freak en achetant Pokemon X/Y
 gui.starter.trademark4=Bienvenue dans le monde de Pixelmon!! Merci d'avoir installé ce mod!
 gui.starter.trademark5=Maintenant, Veuillez choisir un Pokemon de départ!
-
+gui.starter.comingsoon=Arrive bientôt...
 gui.starter.disabled=Désactivé
 
 gui.pc.box=Boîte n°
@@ -4368,7 +4368,7 @@ gui.model.frame=Corps
 gui.model.walk=Marche
 gui.model.idle=Au repos
 gui.model.fly=En vol
-
+gui.model.swim=Natation
 
 enum.aggro.timid=Timide
 enum.aggro.default=Défaut
@@ -4433,7 +4433,7 @@ enum.nature.timid=Timide
 
 enum.statuetex.originaltexture=Original
 enum.statuetex.shiny=Shiny
-
+enum.statuetex.special=Spécial
 enum.statuetex.stone=Pierre
 enum.statuetex.gold=Or
 enum.statuetex.bronze=Bronze
@@ -4478,7 +4478,7 @@ gui.mainmenu.cantswitch=Vous ne pouvez pas changer de Pokemon!
 gui.mainmenu.traped=$p est piégé! Vous ne pouvez pas fuir!
 gui.mainmenu.trainer=Vous ne pouvez pas fuir de ce combat!
 gui.mainmenu.already=You've already selected another action this turn!Vous avez déjà sélectionné une autre action pendant ce tour !
-
+gui.mainmenu.megaevolution=Méga-Évolution
 
 gui.choosebag.pokeballs=Pokeballs
 gui.choosebag.hppp=Soin PV/PP
@@ -4502,19 +4502,19 @@ gui.choosemoveset.choosemove=Choisir une capacité
 gui.choosemoveset.relearnmove=Réapprendre une capacité
 gui.choosemoveset.cost=Coût:
 
+gui.tutor.addmove=Ajouter une capacité
+gui.tutor.deletemove=Effacer une capacité
+gui.tutor.itemname=Objet
+gui.tutor.itemamount=Montant
+gui.tutor.itemdamage=Dégât
+gui.tutor.addcost=Ajouter un coût
+gui.tutor.deletetutor=Effacer un Maître
+gui.tutor.canlearn=Peut apprendre
+gui.tutor.cantlearn=Impossible d'apprendre
+gui.tutor.already=Déjà appris
 
-
-
-
-
-
-
-
-
-
-
-
-
+gui.ranch.managePokemon=Gérer Pokémon
+gui.ranch.claimEgg=Réclamer l'œuf
 gui.ranch.extendplusx=+X
 gui.ranch.extendminusx=-X
 gui.ranch.extendplusz=+Z
@@ -4548,10 +4548,10 @@ trainer.RichBoy=Richard
 trainer.model.Steve=Steve
 trainer.model.Custom_RP=Pack de Ressources personnalisé
 trainer.model.Custom_PN=Nom de joueur personnalisé
-
-
-
-
+trainer.model.santa=Santa
+trainer.model.suit=Costume
+trainer.model.scottish=Écossais
+trainer.model.prisoner=Prisonnier
 trainer.model.youngster1=Enfant Gâté
 trainer.model.youngster2=Jeune Homme Cool
 trainer.model.youngster3=Jeune Homme Casquette
@@ -4612,17 +4612,17 @@ npc.model.schoolboy=Écolier
 npc.model.schoolgirl=Écolière
 npc.model.scientist_f=Scientifique ♀
 npc.model.scientist_m=Scientifique ♂
-npc.model.shopgirl=Commerçante Fille
-npc.model.shoplady2=Commerçante 2
-npc.model.shoplady3=Commerçante 3
-npc.model.shoplady4=Commerçante 4
-npc.model.shopman=Commerçant 5
-
-
-
-
-npc.model.shopsecondman=Commerçant second
-npc.model.spawntrader=Spawn Trader
+npc.model.shopgirl=Marchande Fille
+npc.model.shoplady2=Marchande 2
+npc.model.shoplady3=Marchande 3
+npc.model.shoplady4=Marchande 4
+npc.model.shopman=Marchand
+npc.model.shopman2=Marchand 2
+npc.model.shopman3=Marchand 3
+npc.model.shopman4=Marchand 4
+npc.model.shopman5=Marchand 5
+npc.model.shopsecondman=Deuxième Marchand
+npc.model.spawntrader=Marchand Spawn
 npc.model.streetthug=Racaille
 npc.model.supernerd=Intello
 
@@ -4640,7 +4640,7 @@ attack.category.special=Spécial
 attack.category.status=Statut
 
 nbt.attack.name=Attaque:
-
+nbt.defence.name=Défense:
 nbt.speed.name=Vitesse:
 nbt.spattack.name=Attaque Spé.:
 nbt.spdefense.name=Défense Spé.:
@@ -4678,12 +4678,12 @@ battlecontroller.switch=Choisissez un Pokémon à envoyer !
 battlecontroller.targets=Choisissez une cible pour $a.
 battlecontroller.win=Vous avez remporté le combat !
 
+battlecontroller.afk=%s est AFK pour %d secondes. Auto-battler prend les tours toutes les %d secondes !
+battlecontroller.selfafk=Vous êtes AFK pour %d secondes. Auto-battler prendra votre tour every %d secondes !
+battlecontroller.afkback=%s n'est plus AFK. Auto-battler désengagé !
+battlecontroller.selfafkback=Vous n'êtes plus AFK. Auto-battler désengagé !
 
-
-
-
-
-
+battleController.recievedDamage=%s a reçu %d de dégâts de %s !
 
 type.normal=Normal
 type.fire=Feu
@@ -4702,7 +4702,7 @@ type.ghost=Spectre
 type.dragon=Dragon
 type.dark=Ténèbres
 type.steel=Acier
-
+type.fairy=Fée
 
 aitargetenvironment.seessomething=Votre Pokemon voit quelque chose
 
@@ -4722,7 +4722,7 @@ playerparticipant.load=Impossible de charger les compétences du Pokemon!
 
 multiplehit.times=%s a frappé %d fois!
 
-recoil.damage=%s a reçu des dommages de recul!
+recoil.damage=%s a reçu des dégâts de recul !
 
 battlequery.declined=%s a refusé le combat!
 
@@ -4944,16 +4944,16 @@ ability.Blaze.name=Brasier
 ability.Blaze.description=Booste les capacités Feu en cas de besoin.
 ability.Bulletproof.name=Pare-Balles
 ability.Bulletproof.description=Protège le Pokemon de certaines capacités projetant des bombes, balles...
-
-
+ability.CheekPouch.name=Bajoues
+ability.CheekPouch.description=Rend des PV lorsque le Pokémon consomme une Baie.
 ability.Chlorophyll.name=Chlorophylle
 ability.Chlorophyll.description=Augmente la Vitesse du Pokemon s'il y a du soleil.
 ability.ClearBody.name=Corps Sain
 ability.ClearBody.description=Empêche les stats du Pokemon de baisser.
 ability.CloudNine.name=Ciel Gris
 ability.CloudNine.description=Annule les effets du climat.
-
-
+ability.ColorChange.name=Déguisement
+ability.ColorChange.description=Le Pokémon adopte le type de la capacité ennemie. 
 ability.Competitive.name=Battant
 ability.Competitive.description=Monte l'Attaque quand une stat est baissée par l'adversaire.
 ability.CompoundEyes.name=Œil Composé
@@ -5280,8 +5280,8 @@ ability.WaterAbsorb.name=Absorb Eau
 ability.WaterAbsorb.description=Récupère des PV si touché par une capacité Eau.
 ability.WaterVeil.name=Ignifu-Voile
 ability.WaterVeil.description=Protège le Pokémon des brûlures.
-
-
+ability.WeakArmor.name=Armurouillée
+ability.WeakArmor.description=Un coup physique baisse la Défense, monte la Vitesse.
 ability.WhiteSmoke.name=Écran Fumée
 ability.WhiteSmoke.description=Empêche les stats du Pokémon de baisser.
 ability.WonderGuard.name=Garde Mystik
@@ -5306,8 +5306,8 @@ pixelmon.battletext.butmovefailed=Mais l'Attaque a échoué !
 pixelmon.battletext.used=%s utilise %s !
 pixelmon.battletext.sentout=%s envoie %s !
 
-
-
+pixelmon.battletext.megareact=Le %s de %s réagit à Gemme Sésame de %s !
+pixelmon.battletext.megaevolve=%s a méga-évolué en Mega %s !
 
 pixelmon.effect.regainedenergy=%s restaure de l'énergie !
 pixelmon.effect.atedreams=%s a mangé les rêves de %s !
@@ -5506,12 +5506,12 @@ pixelmon.effect.shadowforce=%s disparaît !
 pixelmon.effect.smellingsalt=La paralysie de %s est guérie !
 pixelmon.effect.revived=%s a été ressucité !
 pixelmon.effect.thief=%s vole %s de %s !
-
-
-
-
-
-
+pixelmon.effect.celebrate=Félicitations, %s !
+pixelmon.effect.addtype=Le type %s a été ajouté à %s !
+pixelmon.effect.geomancy=%s absorbe la puissance !
+pixelmon.effect.restorehealth=Santé de %s restaurée !
+pixelmon.effect.happyhour=Tout le monde est pris dans l'atmosphère heureuse !
+pixelmon.effect.topsyturvy=Les changements de stat de %s ont tous été inversés !
 
 pixelmon.status.ringheal=%s se soigne grâce à l'anneau
 pixelmon.status.burnhurt=%s brûle!
@@ -5632,24 +5632,24 @@ pixelmon.status.luckychant=%s rejoint l'Air Veinard !
 pixelmon.status.luckychantend=Air Veinard de %s disparaît !
 pixelmon.status.magicroom=%s crée une zone étrange ou les objets ne fonctionnent pas !
 pixelmon.status.magicroomend=La zone étrange disparaît !
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+pixelmon.status.craftyshield=Vigilance a protégé l'équipe %s !
+pixelmon.status.craftyshieldprotect=Vigilance a protégé %s !
+pixelmon.status.electricterrain=Un courant électrique traverse le Champ de Bataille !
+pixelmon.status.electricterrainend=L'électricité a disparu du Champ de Bataille.
+pixelmon.status.electrify=Les capacités de %s ont été électrifiés !
+pixelmon.status.fairylock=Personne ne pourra fuir au prochain tour !
+pixelmon.status.grassyterrain=L'herbe a grandi pour couvrir le Champ de Bataille !
+pixelmon.status.grassyterrainend=L'herbe a disparu du Champ de Bataille.
+pixelmon.status.sportfade=Les effets de %s ont disparu.
+pixelmon.status.iondeluge=Un déluge d'ions arrosent le Champ de Bataille !
+pixelmon.status.matblock=%s a l'intention de renverser un tapis et de bloquer les attaques entrantes !
+pixelmon.status.matblock=%s a été bloqué par le tapis lancé !
+pixelmon.status.mistyterrain=La brume tourbillonne autour du Champ de Bataille !
+pixelmon.status.mistyterrainend=La brume a disparu du Champ de Bataille.
+pixelmon.status.powder=%s est couvert de poudre !
+pixelmon.status.powderexplode=Quand la flamme a touché la poudre sur %s, elle a explosé !
+pixelmon.status.stickyweb=Un tissu collant a été posé sous les pieds de l'adversaire !
+pixelmon.status.stickywebcaught=%s a été pris dans un tissu collant !
 
 attack.curse.alreadycursed=%s est déjà maudit!
 attack.curse.curse=%s Sacrifie ses PV pour maudire %s!
@@ -5740,7 +5740,7 @@ pixelmon.config.spawning.tooltip=Paramètres de Spawn
 pixelmon.config.starter=Starter
 pixelmon.config.starter.tooltip=Paramètres Starter
 
-
+pixelmon.config.spawnTickRate=Ticks de spawn
 pixelmon.config.spawnDimensions=Dimensions de spawn
 pixelmon.config.shinySpawnRate=Ratio d'apparition de Shiny (1/x)
 pixelmon.config.bossSpawnRate=Ratio d'apparition de Boss (1/x)
@@ -5754,19 +5754,19 @@ pixelmon.config.replaceMCVillagers=Remplacer les villageois de Minecraft
 pixelmon.config.spawnPokeMarts=Spawn de Marchands
 pixelmon.config.increaseVillageSpawnRate=Augmente le ratio de spawn de village
 pixelmon.config.useRecentLevelMoves=Apparaît avec des capacités de son niveau
-pixelmon.config.spawnGyms=Apparition d'Arènes
-
-
-
+pixelmon.config.spawnGyms=Spawn d'Arènes
+pixelmon.config.spawnLevelsByDistance=Spawn des niveaux en fonction de la distance
+pixelmon.config.maxLevelByDistance=Niveau maximum des spawn (en fonction de la distance)
+pixelmon.config.distancePerLevel=Distance par niveau
 
 pixelmon.config.Gen1=Génération 1
 pixelmon.config.Gen2=Génération 2
 pixelmon.config.Gen3=Génération 3
 pixelmon.config.Gen4=Génération 4
 pixelmon.config.Gen5=Génération 5
+pixelmon.config.Gen6=Génération 6
 
-
-
+pixelmon.config.maxSpawnsPerTick=Spawns de Pokémon max par tick
 pixelmon.config.maxLandPokemon=Pokémon terrestres max
 pixelmon.config.maxUndergroundPokemon=Pokémon souterrains max
 pixelmon.config.maxWaterPokemon=Pokémon aquatiques max
@@ -5787,7 +5787,7 @@ pixelmon.config.timedLootReuseSeconds=Délai de réutilisation
 
 pixelmon.config.scaleGrassBattles=Ajuster le niveau des combats au joueur
 pixelmon.config.blocksHaveLegendaries=Spawn de légendaires dans des blocs
-
+pixelmon.config.useExternalBlockSpawnFiles=Utiliser des fichiers de spawn de blocs externes
 pixelmon.config.pokeGiftReusable=Poké Cadeau réutilisable
 pixelmon.config.pokeGiftHaveEvents=Activer les Poké Cadeaux d'événement
 pixelmon.config.eventPokeGiftLoad=Activer le spawn de Poké Cadeau d'événement
@@ -5798,7 +5798,7 @@ pixelmon.config.eventShinyRate=Ratio de Shiny dans les Poké Cadeaux d'événeme
 pixelmon.config.eventTime=Date Poké Cadeau d'événement (J/M)
 pixelmon.config.eventCoords=Coordonnées d'apparition Poké Cadeau d'événement
 
-
+pixelmon.config.renderDistanceWeight=Poids de la distance de rendu
 pixelmon.config.lowResTextures=Mode Patate
 pixelmon.config.useSmoothShadingOnPokeBalls=Smooth shading des Pokéballs
 pixelmon.config.useSmoothShadingOnPokemon=Smooth shading des Pokémon
@@ -5815,7 +5815,7 @@ pixelmon.config.allowVanillaMobs=Activer les monstres vanilla
 pixelmon.config.allowCaptureOutsideBattle=Autoriser la capture hors combat
 pixelmon.config.npcRarity=Rareté des PNJ
 pixelmon.config.namePlateRange=Distance d'affichage du nom
-
+pixelmon.config.showWildNames=Afficher les noms des Pokémon sauvages
 pixelmon.config.scalePokemonModels=Augmenter la taille des modèles de 30%
 pixelmon.config.growthScaleModifier=Variation de l'accroissement de la taille
 pixelmon.config.pokemonDropsEnabled=Activer les drops de Pokémon
@@ -5847,7 +5847,7 @@ pixelmon.config.enablePointToSteer=Activer l'orientation du pokémon à la souri
 pixelmon.config.useSystemTimeForWorldTime=Utiliser l'heure du système pour l'heure du monde
 pixelmon.config.systemTimeSyncInterval=Secondes entre la synchronisation de temps
 pixelmon.config.enablePokedexWikiWebsiteOpen=Autoriser le Pokedex à ouvrir le wiki
-
+pixelmon.config.useExternalJSONFiles=Utiliser des fichiers JSON externes
 pixelmon.config.chunkSpawnRadius=Rayon de spawn des Pokémon (en chunk)
 pixelmon.config.battleAIWild=IA combat Pokémon Sauvage
 pixelmon.config.battleAIBoss=IA combat Pokémon Boss
@@ -5859,8 +5859,8 @@ pixelmon.config.pickupRate=Ratio de Ramassage
 pixelmon.config.bedsHealPokemon=Dormir soigne les Pokémon
 pixelmon.config.useBattleCamera=Utiliser caméra de combat
 pixelmon.config.allowPokemonEditors=Autoriser l'Éditeur de Pokémon.
-
-
+pixelmon.config.dataSaveOnWorldSave=Données sauvegardées pendant la sauvegarde du monde
+pixelmon.config.maxLevel=Niveau maximum
 
 pixelmon.config.enableAFKHandler=Mode AFK actif
 pixelmon.config.afkActivateSeconds=Délai d'activation du mode AFK
@@ -5904,7 +5904,7 @@ pixelmon.config.elevator.comment=Réglages pour l'ascenseur.
 
 pixelmon.config.awardPhotos.comment=Récompenser les joueurs vainqueurs de combats sauvages d'une photo.
 pixelmon.config.wildCanFlee.comment=Les Pokémons sauvages ont une chance, basée sur des conditions de combat qui ne leur sont pas favorable, de tenter de fuir d'un combat.
-
+pixelmon.config.spinBattleCamera.comment=La caméra de bataille tourne autour du joueur si vrai et est stationnaire si faux.
 pixelmon.config.spawnStructures.comment=Autorise la génération aléatoire de structure telle que les Centres Pokémons, les Totems, et d'autre bâtiments si actif.
 pixelmon.config.allowPokemonNicknames.comment=Autorise le joueur à renommer ses Pokémons (Réglage coté client,et non côté serveur).
 pixelmon.config.allowAnvilAutoreloading.comment=Permet à l'enclume de remplacer les objets finis par des objets à commencer depuis l'inventaire du joueur sans avoir à les placer manuellement.
@@ -5912,7 +5912,7 @@ pixelmon.config.allowVanillaMobs.comment=Permet le spawn de creepers, squelettes
 pixelmon.config.allowCaptureOutsideBattle.comment=Autorise les joueurs à jeter des Pokéballs depuis la barre d'inventaire. Si désactivé, les Pokéballs ne peuvent être jetées qu'en combat.
 pixelmon.config.npcRarity.comment=Fixe la rareté des PNJ. Les valeurs élevées font apparaître des PNJ (dresseur, mâitre de capacité) plus régulièrement, 0 n'en fera pas apparaître.
 pixelmon.config.namePlateRange.comment=Fixe la distance maximale d'affichage du nom et du niveau des Pokémons (Réglage côté client uniquement). 1=Défaut, 2=Loin, 3=Très loin
-
+pixelmon.config.showWildNames.comment=Afficher les noms des Pokémon sauvages sur leurs plaques d'identification.
 pixelmon.config.scalePokemonModels.comment=Augmente la taille des modèles de Pokémon en jeu de 30%.
 pixelmon.config.growthScaleModifier.comment=Ajuste la variation de la taille causée par la prise de niveau (0-2). 1 correspond à une variation normale.
 pixelmon.config.pokemonDropsEnabled.comment=Autorise les Pokémons sauvages à lâcher des objets (plumes, poulet..) à leur mort.
@@ -5944,7 +5944,7 @@ pixelmon.config.enablePointToSteer.comment=Permet le guidage à la souris d'un P
 pixelmon.config.useSystemTimeForWorldTime.comment=Laisse votre monde suivre l'heure réelle ou non (utilise l'horloge système du serveur).
 pixelmon.config.systemTimeSyncInterval.comment=Temps attendu avant de synchroniser l'horloge système (en secondes).
 pixelmon.config.enablePokedexWikiWebsiteOpen.comment=Permet l'ouverture du Wiki par le Pokédex. Désactivez cette option si vous ne souhaitez pas ouvrir le wiki depuis Pixelmon.
-
+pixelmon.config.useExternalJSONFiles.comment=Charger les fichiers de configuration externes à partir du dossier "pixelmon". Si activé et que le dossier "pixelmon" n'existe pas, Pixelmon créera le dossier et copiera les fichiers existants.
 pixelmon.config.chunkSpawnRadius.comment=Le rayon en chunk autour du joueur dans lequel les Pokémon pourront apparaître.
 pixelmon.config.battleAIDescription=1: Choisir les attaques au hasard. 2: Choisir l'attaque faisant le plus de dégâts (en fonction du type), ignorant les attaques de statut. 3: Utiliser des attaques offensives et de statut. 4: Utiliser toutes les compétences intelligemment et changer de Pokémon de façon avantageuse.
 pixelmon.config.battleAIWild.comment=Le type d'IA à utiliser pour les combats de Pokémons sauvages.
@@ -5957,10 +5957,10 @@ pixelmon.config.pickupRate.comment=Chance que le talent Ramassage se déclenche 
 pixelmon.config.bedsHealPokemon.comment=Dormir dans un lit soigne les Pokémon d'un joueur.
 pixelmon.config.useBattleCamera.comment=Définir si vous passez à une caméra externe lors des combats ou non.
 pixelmon.config.allowPokemonEditors.comment=Côté serveur, définit si les joueurs peuvent utiliser l'Éditeur de Pokémon. Côté client, définit si les autres joueurs peuvent utiliser l'Éditeur de Pokémon sur un joueur avec cette option.
+pixelmon.config.dataSaveOnWorldSave.comment=Est-ce que la partie des joueurs et l'ordinateur sont forcément sauvegardés lors de la sauvegarde du monde (sinon, vous devrez enregistrer des données via /saveall, ou risquer la perte de données)
+pixelmon.config.maxLevel.comment=Le niveau maximum qu'un Pokémon peut avoir.
 
-
-
-
+pixelmon.config.spawnTickRate.comment=Nombre de ticks avant qu'une tentative de spawn d'entités est faite.
 pixelmon.config.spawnDimensions.comment=Liste de dimensions dans lesquelles les Pokémon pourront apparaître.
 pixelmon.config.shinySpawnRate.comment=Le calcul de Shiny utilise 1/Ratio Shiny pour obtenir une chance d'avoir un Shiny.
 pixelmon.config.bossSpawnRate.comment=Chance qu'un groupe de Pokémons sauvages contienne un boss (1/ratio). 0 désactive l'apparition de boss.
@@ -5981,13 +5981,13 @@ pixelmon.config.Gen2.comment=Pokédex 152-251
 pixelmon.config.Gen3.comment=Pokédex 252-386
 pixelmon.config.Gen4.comment=Pokédex 387-493
 pixelmon.config.Gen5.comment=Pokédex 494-649
-
+pixelmon.config.Gen6.comment=Pokédex 650-721
 
 pixelmon.config.maxLandPokemon.comment=Nombre max de Pokémon terrestres en même temps.
 pixelmon.config.maxUndergroundPokemon.comment=Nombre max de Pokémon souterrains en même temps.
 pixelmon.config.maxWaterPokemon.comment=Nombre max de Pokémon aquatiques en même temps.
 pixelmon.config.maxFlyingPokemon.comment=Nombre max de Pokémon volant en même temps (gardez ceci bas).
-
+pixelmon.config.maxNumNPCs.comment=Nombre maximal de PNJ à la fois
 pixelmon.config.despawnOnFleeOrLoss.comment=Force le despawn des Pokémons sauvages après un combat.
 
 pixelmon.config.spawnNormal.comment=Permet l'apparition de Poké Coffre visible aléatoirement dans le monde.
@@ -6032,7 +6032,7 @@ pixelmon.config.maxMusicDelay.comment=Nombre maximum de ticks avant qu'un nouvea
 
 pixelmon.config.scaleGrassBattles.comment=Ajuster le niveau des combats en hautes herbes au niveau de l'équipe du joueur ?
 pixelmon.config.blocksHaveLegendaries.comment=Permet aux légendaires de spawn depuis des blocs (ex: herbe).
-
+pixelmon.config.useExternalBlockSpawnFiles.comment=Utiliser des fichiers de spawn externes.
 pixelmon.config.pokeGiftReusable.comment=Permet à plusieurs joueurs d'obtenir un Pokémon grâce à un cadeau.
 pixelmon.config.pokeGiftHaveEvents.comment=Autorise l'utilisation de Poké Cadeau (à placer/utiliser).
 pixelmon.config.eventPokeGiftLoad.comment=Un Poké Cadeau d'événement doit-il apparaître ?
@@ -6258,7 +6258,7 @@ item.Max Ether.name=Huile Max
 item.Elixir.name=Élixir
 item.Max Elixir.name=Max Élixir
 item.Antidote.name=Antidote
-
+item.paralyse Heal.name=Anti-Para
 item.Awakening.name=Réveil
 item.Burn Heal.name=Anti-Brûle
 item.Ice Heal.name=Antigel
@@ -6445,8 +6445,6 @@ item.WhiteHerb.name=Herbeblanche
 item.BigRoot.name=Grosseracine
 item.ZoomLens.name=Lentille Zoom
 item.BrightPowder.name=Poudre Claire
-
-
 
 item.LaggingTail.name=Ralentiqueue
 item.WiseGlasses.name=Lunettes Sages
