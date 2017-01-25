@@ -2,14 +2,14 @@
 * File translated by 'ToklaX' (for Language "es_ES.lang")
 * Spanish translator (Original translator): 'ToklaX'
 * Spanish translator (contributor): 'Wirlie'
-* Last Update: December 8, 2016 - by ToklaX
+* Last Update: January 20, 2017 - by ToklaX
 *************************************************/
 
 /**************** ES_ES *************************
 * Archivo traducido por 'ToklaX' (para el idioma "es_ES.lang")
 * Traductor de español (Traductor original): 'ToklaX'
 * Traductor de español (contribuidor); 'Wirlie'
-* Última actualización: 8 de Diciembre de 2016 por ToklaX
+* Última actualización: 20 de Enero de 2017 por ToklaX
 *************************************************/
 
 /*
@@ -891,6 +891,11 @@ item.record.dusk.desc=Crepúsculo
 item.record.mn.desc=Media Noche
 item.record.cs.desc=Cielos Despejados
 item.record.tgp.desc=Las Vastas Llanuras
+
+item.venusaurite.name=Venusaurita
+item.charizardite_x.name=Charizardita X
+item.charizardite_y.name=Charizardita Y
+item.blastoisinite.name=Blastoisita
 
 tile.braille_block.A.name=Bloque Braille A
 tile.braille_block.B.name=Bloque Braille B
@@ -5131,6 +5136,7 @@ enum.nature.timid=Miedosa
 
 enum.statuetex.originaltexture=Original
 enum.statuetex.shiny=Variocolor
+enum.statuetex.special=Especial
 enum.statuetex.stone=Piedra
 enum.statuetex.gold=Oro
 enum.statuetex.bronze=Bronce
@@ -5175,6 +5181,7 @@ gui.mainmenu.cantswitch=¡No puedes cambiar de Pokémon en este momento!
 gui.mainmenu.traped=¡$p está atrapado! ¡No puedes huir!
 gui.mainmenu.trainer=¡No puedes huir de esta batalla!
 gui.mainmenu.already=¡Ya has seleccionado otra acción en este turno!
+gui.mainmenu.megaevolution=Megaevolución
 
 gui.choosebag.pokeballs=Poké Balls
 gui.choosebag.hppp=Restaurar PS/PP
@@ -6012,6 +6019,9 @@ pixelmon.battletext.missedattack=¡%s evitó el ataque!
 pixelmon.battletext.butmovefailed=¡Pero ha fallado!
 pixelmon.battletext.used=¡%s usó %s!
 pixelmon.battletext.sentout=¡%s sacó a %s!
+
+pixelmon.battletext.megareact=¡La megapiedra de %s está reaccionando con la Piedra Activadora!
+pixelmon.battletext.megaevolve=¡%s ha megaevolucionado en Mega %s!
  
 pixelmon.stat.speedlowered=¡La velocidad disminuyó!
 pixelmon.stat.attackraised=¡El ataque aumentó!
@@ -6500,6 +6510,7 @@ pixelmon.config.timedLootReuseSeconds=Reutilizar tiempo de Enfriamiento
 
 pixelmon.config.scaleGrassBattles=Escalar el nivel de los combates de la hierba con el del jugador
 pixelmon.config.blocksHaveLegendaries=Permitir Legendarios de Bloques
+pixelmon.config.useExternalBlockSpawnFiles=Usar archivos externos de aparición de bloques
 pixelmon.config.pokeGiftReusable=Poké Regalo reutilizable
 pixelmon.config.pokeGiftHaveEvents=Habilitar eventos de Poké Regalo
 pixelmon.config.eventPokeGiftLoad=Habilitar evento de Poké Regalo
@@ -6746,11 +6757,12 @@ pixelmon.config.removeVanillaMusic.comment=Si se desea quitar la música de Mine
 pixelmon.config.minMusicDelay.comment=Número mínimo de ticks del mundo antes de que una nueva melodia comience.
 pixelmon.config.maxMusicDelay.comment=Número máximo de ticks del mundo antes de que una nueva melodía comience.
 
-pixelmon.config.scaleGrassBattles.comment=¿Ajustar los combates de la hierba al nivel del equipo del jugador?
-pixelmon.config.blocksHaveLegendaries.comment=Permite a los Legendarios aparecer de bloques (ej.: hierba).
+pixelmon.config.scaleGrassBattles.comment=¿Ajustar el nivel de los combates en la hierba al nivel del equipo del jugador?
+pixelmon.config.blocksHaveLegendaries.comment=Permite a los Legendarios aparecer de bloques (ej.: la hierba).
+pixelmon.config.useExternalBlockSpawnFiles.comment=Usa archivos externos de aparición de bloques.
 pixelmon.config.pokeGiftReusable.comment=Permitir a varios jugadores conseguir un Pokémon de un regalo.
 pixelmon.config.pokeGiftHaveEvents.comment=Autorizar el uso de Poké Regalos (colocar y su uso).
-pixelmon.config.eventPokeGiftLoad.comment=¿Debería aparecer un evento de Poké Regalo?
+pixelmon.config.eventPokeGiftLoad.comment=¿Debería activar un evento de Poké Regalo?
 pixelmon.config.eventHasLegendaries.comment=Activar/Desactivar añadir Legendarios durante el evento de Poké Regalo.
 
 pixelmon.config.eventHasShinies.comment=Cada Pokémon tiene la probabilidad de 1/10 de ser Shiny.

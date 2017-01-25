@@ -860,6 +860,11 @@ item.record.mn.desc=Mitternacht
 item.record.cs.desc=Clear Skies
 item.record.tgp.desc=The Great Plains
 
+item.venusaurite.name=Bisaflornit
+item.charizardite_x.name=Gluraknit X
+item.charizardite_y.name=Gluraknit Y
+item.blastoisinite.name=Turtoknit
+
 tile.braille_block.A.name=Braille Block A
 tile.braille_block.B.name=Braille Block B
 tile.braille_block.C.name=Braille Block C
@@ -4292,6 +4297,7 @@ enum.nature.timid=Scheu
 
 enum.statuetex.originaltexture=Original
 enum.statuetex.shiny=Shiny
+enum.statuetex.special=Special
 enum.statuetex.stone=Stein
 enum.statuetex.gold=Gold
 enum.statuetex.bronze=Bronze
@@ -4336,6 +4342,7 @@ gui.mainmenu.cantswitch=Du kannst dein Pokémon jetzt nicht auswechseln!
 gui.mainmenu.traped=$p ist gefangen! Du kannst nicht fliehen!
 gui.mainmenu.trainer=Du kannst nicht aus einem Trainerkampf fliehen!
 gui.mainmenu.already=Du hast diesen Zug schon eine andere Aktion ausgewählt!
+gui.mainmenu.megaevolution=Mega-Entwicklung
 
 gui.choosebag.pokeballs=Pokébälle
 gui.choosebag.hppp=KP-/AP-Erholung
@@ -4614,7 +4621,7 @@ externalMove.Cut.fail=%s ist nicht stark genug, um das zu zerschneiden!
 sendpixelmon.sentout=Du hast %s ausgesendet!
 sendpixelmon.cantbattle=%s ist kampfunfähig!
 sendpixelmon.inbattle=%s ist in einem Kampf!
-sendpixelmon.retrieved=Du erhälst %s!
+sendpixelmon.retrieved=Du erhältst %s!
 
 camera.error.samepokemon=Du hast schon ein Foto von diesem %s gemacht!
 
@@ -5180,6 +5187,9 @@ pixelmon.battletext.butmovefailed=Doch es schlug fehl!
 pixelmon.battletext.used=%s setzt %s ein!
 pixelmon.battletext.sentout=%s hat %s ausgesendet!
 
+pixelmon.battletext.megareact=%s's %s reagiert auf %s's Schlüssel-Stein!
+pixelmon.battletext.megaevolve=%s hat sich Mega entwickelt in Mega %s!
+
 pixelmon.effect.regainedenergy=%s regenerierte Energie!
 pixelmon.effect.atedreams=%s fraß %ss Traum!
 pixelmon.effect.notasleep=%s schläft nicht!
@@ -5660,6 +5670,7 @@ pixelmon.config.timedLootReuseSeconds=Cooldown für die Wiederbenutzung von Time
 
 pixelmon.config.scaleGrassBattles=Skaliere die Level der Pokémon in Pixelmon-Gras abhängig vom Spieler
 pixelmon.config.blocksHaveLegendaries=Legendäre Pokémon im Pixelmon-Gras erlauben
+pixelmon.config.useExternalBlockSpawnFiles=Use external block spawn files
 pixelmon.config.pokeGiftReusable=Poké-Geschenke mehrfach nutzbar
 pixelmon.config.pokeGiftHaveEvents=Poké-Geschenk-Events aktivieren
 pixelmon.config.eventPokeGiftLoad=Aktiviere Event-Poké-Geschenk-Spawning
@@ -5901,6 +5912,7 @@ pixelmon.config.maxMusicDelay.comment=Maximale Anzahl an Welt-Ticks bevor ein ne
 
 pixelmon.config.scaleGrassBattles.comment=Die Pixelmon-Gras-Kämpfe an das Level des Spielers anpassen?
 pixelmon.config.blocksHaveLegendaries.comment=Erlaubt es legendären Pokémon aus zufälligen Blöcken zu spawnen (z.B. Gras).
+pixelmon.config.useExternalBlockSpawnFiles.comment=Use external block spawn files.
 pixelmon.config.pokeGiftReusable.comment=Ermöglicht es mehreren Spielern, das Pokémon aus dem Geschenk zu erhalten.
 pixelmon.config.pokeGiftHaveEvents.comment=Erlaubt es, Poke-Geschenke zu benutzen (sowohl platzieren als auch nutzen, verhindert Spam).
 pixelmon.config.eventPokeGiftLoad.comment=Soll ein Event-Poké-Geschenk spawnen?
