@@ -4374,6 +4374,7 @@ gui.model.frame=帧动画
 gui.model.walk=行走
 gui.model.idle=闲置
 gui.model.fly=飞行
+gui.model.swim=游泳
 
 enum.aggro.timid=胆小
 enum.aggro.default=默认
@@ -5917,6 +5918,7 @@ pixelmon.config.saveToExternalDatabase=用数据库保存
 pixelmon.config.elevatorSearchRange=搜索范围(上/下)
 
 pixelmon.config.allowExternalMoves=允许对战外技能
+pixelmon.config.allowDestructiveExternalMoves=允许破坏性对战外技能
 
 pixelmon.config.general.comment=World常规设置。
 pixelmon.config.spawning.comment=设置宝可梦生成多少。
@@ -6055,6 +6057,7 @@ pixelmon.config.breedingTicks.comment=经过每个繁殖阶段需要多少tick�
 pixelmon.config.allowRanchExpansion.comment=允许牧场扩张。
 
 pixelmon.config.allowExternalMoves.comment=是否允许玩家使用对战外技能如碎岩。
+pixelmon.config.allowDestructiveExternalMoves.comment=是否允许玩家使用破坏性对战外技能。 (包括:居合斩/挖洞/爆炸/火光/闪电/碎岩)
 
 pixelmon.config.saveToExternalDatabase.comment=启用使用数据库保存数据。目前仅支持H2和MySQL。
 pixelmon.config.connectionString.comment=将字符串连接到外部数据库到 jdbc:dbtype://...
