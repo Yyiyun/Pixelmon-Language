@@ -4368,7 +4368,7 @@ gui.model.frame=Corps
 gui.model.walk=Marche
 gui.model.idle=Au repos
 gui.model.fly=En vol
-gui.model.swim=Natation
+gui.model.swim=Nage
 
 enum.aggro.timid=Timide
 enum.aggro.default=Défaut
