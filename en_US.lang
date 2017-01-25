@@ -5918,6 +5918,7 @@ pixelmon.config.saveToExternalDatabase=Use above database for saving
 pixelmon.config.elevatorSearchRange=Search range (up/down)
 
 pixelmon.config.allowExternalMoves=Allow external moves
+pixelmon.config.allowDestructiveExternalMoves=Allow destructive external moves
 
 pixelmon.config.general.comment=General settings for the world.
 pixelmon.config.spawning.comment=Settings that control what Pokemon spawns and how many of them spawn.
@@ -6056,6 +6057,7 @@ pixelmon.config.breedingTicks.comment=Number of world ticks needed to increase t
 pixelmon.config.allowRanchExpansion.comment=Allow the ranch expansion.
 
 pixelmon.config.allowExternalMoves.comment=Allows the use of external moves such as Rock Smash and Cut.
+pixelmon.config.allowDestructiveExternalMoves.comment=Allow destructive external moves (includes Cut, Dig, Explode, LightFire, Lightning, RockSmash)
 
 pixelmon.config.saveToExternalDatabase.comment=Enable this to change the save system over to a database specified in the connection string property. Only H2 and MySQL currently supported.
 pixelmon.config.connectionString.comment=Put the connection string for the external database in the form jdbc:dbtype://...
