@@ -3765,8 +3765,9 @@ pixelmon.entitytrainer.oncemcday=这个训练师Minecraft中每天只能对战�
 pixelmon.entitytrainer.onceplayer=这个训练师每个玩家只能对战一次。
 pixelmon.entitytrainer.level=Lv: 
 pixelmon.entitytrainer.winnings=您获得了 %s 宝可梦币因为您击败了 %s！
+pixelmon.entitytrainer.dropitemstitle=您击败了道馆馆主 %s！
 
-trainer.edit.opwarning=你没有修改NPC的权限。
+trainer.edit.opwarning=您没有修改NPC的权限。
 
 pixelmon.statue.despawn=宝可梦已被禁止生成
 
